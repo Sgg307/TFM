@@ -1,0 +1,27 @@
+# Core
+numpy>=1.24,<2.0
+pandas==2.3.3
+pyarrow>=14.0
+scipy>=1.11
+scikit-learn>=1.3
+
+# Deep Learning
+torch>=2.0
+pytorch-lightning>=2.0
+
+# BigQuery
+google-cloud-bigquery>=3.13
+google-cloud-bigquery-storage>=2.22
+db-dtypes>=1.1
+
+# Visualización
+matplotlib>=3.7
+plotly>=5.18
+
+# Explicabilidad
+shap>=0.43
+
+# Notebook / utilidades
+ipython>=8.0
+ipywidgets>=8.0
+tqdm>=4.66

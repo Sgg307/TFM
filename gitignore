@@ -1,0 +1,48 @@
+# Artefactos del sistema (regenerables con runner.bootstrap)
+models/
+data/
+plots/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Lightning / Torch
+lightning_logs/
+checkpoints/
+*.ckpt
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Entornos
+.venv/
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credenciales (NUNCA al repo)
+*.json
+!**/column_level_features.json
+service-account*.json
+.env
+
+# LaTeX (si se queda algún resto del TFM)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
